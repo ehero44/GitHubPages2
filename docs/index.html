@@ -6,6 +6,7 @@
 	<title>Projekte TdoT 2025</title>
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js/dist/reveal.css">
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js/dist/theme/black.css" id="theme">
+	<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 <div class="reveal">
@@ -20,14 +21,11 @@
 			<section>
 				<h2>JavaFX Taschenrechner</h2>
 				<p>Ein einfacher Taschenrechner mit Grundrechenarten und einer benutzerfreundlichen GUI.</p>
-				<a><img src="taschenrechener.png"></img></a>
 			</section>
 			<section>
-				<img src="images/taschenrechner.png" alt="Taschenrechner Screenshot" style="width: 90%; height: auto;">
+				<img src="../media/taschenrechener.png" alt="JavaFX Taschenrechner" style="width: 40%; height: auto;">
 			</section>
-			<section>
-				<p>Weitere Informationen über den JavaFX Taschenrechner.</p>
-			</section>
+
 		</section>
 
 		<section data-transition="slide-left">
@@ -36,7 +34,7 @@
 				<p>Ein Logikspiel mit einem interaktiven Spielfeld, implementiert mit JavaFX und Rekursion.</p>
 			</section>
 			<section>
-				<img src="images/minesweeper.png" alt="Minesweeper Screenshot" style="width: 90%; height: auto;">
+				<img src="" alt="Minesweeper Screenshot" style="width: 90%; height: auto;">
 			</section>
 			<section>
 				<p>Weitere Informationen über Minesweeper.</p>
@@ -49,33 +47,53 @@
 				<p>Das klassische Spiel gegen den Computer mit einer einfachen Implementierung in Java.</p>
 			</section>
 			<section>
-				<img src="images/schere-stein-papier.png" alt="Schere-Stein-Papier Screenshot" style="width: 90%; height: auto;">
+				<img src="../media/schere-stein-papier.png" alt="Schere-Stein-Papier Screenshot" style="width: 60%; height: auto;">
 			</section>
 			<section>
 				<p>Weitere Informationen über Schere-Stein-Papier.</p>
 			</section>
 		</section>
 
-		<section data-transition="slide-left">
+		<section data-transition="slide-right">
+			<section>
+				<h2>Quiz-App</h2>
+				<p>Eine Quizz-App mit Allgemeinfragen, mit einer einfachen Implementierung mit JavaFX.</p>
+			</section>
+			<section>
+				<h3>Design</h3>
+					<img src="../media/quiz.png" alt="JavaFX Quiz" style="width: 70%; height: auto;">
+			</section>
+			<section>
+					<img src="../media/quiz2.png" alt="Quiz2" style="width: 70%; height: auto;">
+			</section>
+		</section>
+
+		<section data-transition="slide-rigth">
 			<section>
 				<h2>Snake (Gruppenprojekt)</h2>
 				<p>Eine moderne Umsetzung des Klassikers Snake, entwickelt mit JavaFX oder Vue.js im Team.</p>
 			</section>
 			<section>
-				<img src="images/snake.png" alt="Snake Screenshot" style="width: 90%; height: auto;">
+				<h3>Start-Screen</h3>
+				<img src="../media/snake1.png" alt="Snake Screenshot" style="width: 60%; height: auto;">
 			</section>
 			<section>
-				<p>Weitere Informationen über Snake.</p>
+				<h3>Einstellungen</h3>
+				<img src="../media/snake2.png" alt="Snake Screenshot" style="width: 60%; height: auto;">
+			</section>
+			<section>
+				<h3>Spielfeld</h3>
+				<img src="../media/snake3.png" alt="Snake Screenshot" style="width: 50%; height: auto;">
 			</section>
 		</section>
 
-		<section data-transition="slide-right">
+		<section data-transition="slide-left">
 			<section>
 				<h2>Projektmanagement</h2>
 				<p>Ein Überblick über die angewandten Projektmanagement-Methoden: klassisch und agil (SCRUM).</p>
 			</section>
 			<section>
-				<img src="images/projektmanagement.png" alt="Projektmanagement Diagramm" style="width: 90%; height: auto;">
+				<img src="" alt="" style="width: 90%; height: auto;">
 			</section>
 			<section>
 				<p>Weitere Informationen über Projektmanagement.</p>
@@ -89,19 +107,24 @@
 	</div>
 </div>
 <script src="https://cdn.jsdelivr.net/npm/reveal.js/dist/reveal.js"></script>
-<script>
-	Reveal.initialize({
+	<script>
+		Reveal.initialize({
 		controls: true,
 		progress: true,
 		slideNumber: true,
 		history: true,
 		transition: 'none',
+		parallaxBackgroundImage: '../media/background2.jpeg',
+		parallaxBackgroundSize: 'cover',
+		parallaxBackgroundRepeat: 'no-repeat',
+		parallaxBackgroundPosition: 'center',
 		dependencies: [
-			{src: 'https://cdn.jsdelivr.net/npm/reveal.js/plugin/markdown/marked.js'},
-			{src: 'https://cdn.jsdelivr.net/npm/reveal.js/plugin/markdown/markdown.js'},
-			{src: 'https://cdn.jsdelivr.net/npm/reveal.js/plugin/highlight/highlight.js', async: true}
+	{src: 'https://cdn.jsdelivr.net/npm/reveal.js/plugin/markdown/marked.js'},
+	{src: 'https://cdn.jsdelivr.net/npm/reveal.js/plugin/markdown/markdown.js'},
+	{src: 'https://cdn.jsdelivr.net/npm/reveal.js/plugin/highlight/highlight.js', async: true}
 		]
 	});
 </script>
+
 </body>
 </html>
