@@ -1,40 +1,107 @@
 <!doctype html>
-<html lang="en">
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Projekte TdoT 2025</title>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js/dist/reveal.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js/dist/theme/black.css" id="theme">
+</head>
+<body>
+<div class="reveal">
+	<div class="slides">
 
-		<title>reveal.js</title>
+		<section data-transition="zoom">
+			<h1>Projekte für den TdoT 2025</h1>
+			<p>Eine Übersicht über meine Projekte und verwendeten Technologien</p>
+		</section>
 
-		<link rel="stylesheet" href="dist/reset.css">
-		<link rel="stylesheet" href="dist/reveal.css">
-		<link rel="stylesheet" href="dist/theme/black.css">
+		<section data-transition="slide-right">
+			<section>
+				<h2>JavaFX Taschenrechner</h2>
+				<p>Ein einfacher Taschenrechner mit Grundrechenarten und einer benutzerfreundlichen GUI.</p>
+				<a><img src="taschenrechener.png"></img></a>
+			</section>
+			<section>
+				<img src="images/taschenrechner.png" alt="Taschenrechner Screenshot" style="width: 90%; height: auto;">
+			</section>
+			<section>
+				<p>Weitere Informationen über den JavaFX Taschenrechner.</p>
+			</section>
+		</section>
 
-		<!-- Theme used for syntax highlighted code -->
-		<link rel="stylesheet" href="plugin/highlight/monokai.css">
-	</head>
-	<body>
-		<div class="reveal">
-			<div class="slides">
-				<section>Slide 1</section>
-				<section>Slide 2</section>
-			</div>
-		</div>
+		<section data-transition="slide-left">
+			<section>
+				<h2>Minesweeper</h2>
+				<p>Ein Logikspiel mit einem interaktiven Spielfeld, implementiert mit JavaFX und Rekursion.</p>
+			</section>
+			<section>
+				<img src="images/minesweeper.png" alt="Minesweeper Screenshot" style="width: 90%; height: auto;">
+			</section>
+			<section>
+				<p>Weitere Informationen über Minesweeper.</p>
+			</section>
+		</section>
 
-		<script src="dist/reveal.js"></script>
-		<script src="plugin/notes/notes.js"></script>
-		<script src="plugin/markdown/markdown.js"></script>
-		<script src="plugin/highlight/highlight.js"></script>
-		<script>
-			// More info about initialization & config:
-			// - https://revealjs.com/initialization/
-			// - https://revealjs.com/config/
-			Reveal.initialize({
-				hash: true,
+		<section data-transition="slide-right">
+			<section>
+				<h2>Schere-Stein-Papier</h2>
+				<p>Das klassische Spiel gegen den Computer mit einer einfachen Implementierung in Java.</p>
+			</section>
+			<section>
+				<img src="images/schere-stein-papier.png" alt="Schere-Stein-Papier Screenshot" style="width: 90%; height: auto;">
+			</section>
+			<section>
+				<p>Weitere Informationen über Schere-Stein-Papier.</p>
+			</section>
+		</section>
 
-				// Learn about plugins: https://revealjs.com/plugins/
-				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
-			});
-		</script>
-	</body>
+		<section data-transition="slide-left">
+			<section>
+				<h2>Snake (Gruppenprojekt)</h2>
+				<p>Eine moderne Umsetzung des Klassikers Snake, entwickelt mit JavaFX oder Vue.js im Team.</p>
+			</section>
+			<section>
+				<img src="images/snake.png" alt="Snake Screenshot" style="width: 90%; height: auto;">
+			</section>
+			<section>
+				<p>Weitere Informationen über Snake.</p>
+			</section>
+		</section>
+
+		<section data-transition="slide-right">
+			<section>
+				<h2>Projektmanagement</h2>
+				<p>Ein Überblick über die angewandten Projektmanagement-Methoden: klassisch und agil (SCRUM).</p>
+			</section>
+			<section>
+				<img src="images/projektmanagement.png" alt="Projektmanagement Diagramm" style="width: 90%; height: auto;">
+			</section>
+			<section>
+				<p>Weitere Informationen über Projektmanagement.</p>
+			</section>
+		</section>
+
+		<section data-transition="zoom">
+			<h2>Vielen Dank!</h2>
+			<p>Besuchen Sie mein Portfolio unter: <a href="https://IhrBenutzername.github.io/portfolio-tdot2025" style="color: #00ff00;">GitHub Pages</a></p>
+		</section>
+	</div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/reveal.js/dist/reveal.js"></script>
+<script>
+	Reveal.initialize({
+		controls: true,
+		progress: true,
+		slideNumber: true,
+		history: true,
+		transition: 'none',
+		dependencies: [
+			{src: 'https://cdn.jsdelivr.net/npm/reveal.js/plugin/markdown/marked.js'},
+			{src: 'https://cdn.jsdelivr.net/npm/reveal.js/plugin/markdown/markdown.js'},
+			{src: 'https://cdn.jsdelivr.net/npm/reveal.js/plugin/highlight/highlight.js', async: true}
+		]
+	});
+</script>
+</body>
 </html>
